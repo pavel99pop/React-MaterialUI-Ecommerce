@@ -26,6 +26,7 @@ const Navbar = () => {
               height="25px"
               className={classes.image}
             />
+            SH Fashion
           </Typography>
           <div className={classes.grow} />
           <div className={classes.button}>
