@@ -11,7 +11,6 @@ import { useForm, FormProvider } from "react-hook-form";
 import { Link } from "react-router-dom";
 import FormInput from "./CustomTextField";
 import { commerce } from "../../lib/commerce";
-import { NextWeek } from "@material-ui/icons";
 
 const AddressForm = ({ checkoutToken, next }) => {
   const [shippingCountries, setShippingCountries] = useState([]);
