@@ -44,11 +44,11 @@ const PaymentForm = ({
           street: shippingData.address1,
           town_city: shippingData.city,
           county_state: shippingData.shippingSubdivision,
-          postal_sip_code: shippingData.zip,
+          postal_zip_code: shippingData.zip,
           country: shippingData.shippingCountry,
         },
         fulfillment: { shipping_method: shippingData.shippingOption },
-        paymentL: {
+        payment: {
           gateway: "stripe",
           stripe: {
             payment_method_id: paymentMethod.id,
